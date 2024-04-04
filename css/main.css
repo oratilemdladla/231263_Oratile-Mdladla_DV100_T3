@@ -248,46 +248,33 @@ nav{
     background-color: #fff7e6;
 }
 
-.flexFooter{
+.flexRow4{
     display: flex;
     flex-direction: row;
-    align-content: center;
-    justify-content: center;
-    padding-top: 35px;
-    padding-bottom: 25px;
-}
-
-
-.flexColFooterLogo{
-    width: 550px ;
-    padding-left: 35px;
-}
-
-.flexColFooterLogo p{
-    color: #d300d2;
-    padding-top: 12px;
-
-}
-
-.flexRowFooter{
-    display: flex;
-    background-color: #280040;
-    flex-direction: row;
-    align-content: center;
-    justify-content: center;
     padding-top: 50px;
     padding-bottom: 25px;
+    padding: 2em;
 }
 
-.flexRowFooter1{
-    padding-left: 35px;
+.flexColItemLogo{
+    width: 90px;
+    padding-left: 20px;
 }
 
-.flexRowFooter1 h4{
-    color:#d300d2;
-    font-weight: 500;
+.flexColItemLogo p{
+    color: #d300d2;
+    font-size: 16px;
 }
-    
+
+.flexRowItem9{
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    gap: 12px;
+}
+
 .headerSectionFlights{
     display: flex;
     background-image: url(../assets/images/headerbackBack.png);
@@ -375,6 +362,10 @@ nav{
     flex-direction: column;
     justify-content: flex-start;
     align-items:flex-start ;
+}
+
+.flexRowItemContact{
+    flex: 50%;
 }
 
 .flexContactForm{
