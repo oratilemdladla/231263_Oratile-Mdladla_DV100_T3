@@ -332,6 +332,72 @@ nav{
     word-spacing: 0.3em;
 }
 
+.flexColItemFlights h1{
+    color: #d300d2;
+}
+
+.flexColItemFlights1 h1{
+    color: #a4e96e ;
+}
+
+.flexColItemFlights1 h4{
+    color: #fff7e6;
+    font-weight: 400;
+}
+
+.flexColItemFlights h4{
+    color: #49a9df;
+    font-weight: 400;
+
+}
+.flexColItemFlights p{
+    color: #d300d2;
+    padding-top: 18px;
+}
+
+.flexColItemFlights1 p{
+    color: #a4e96e;
+    padding-top: 18px;
+}
+
+.flexRowButtonFlights{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    gap: 25px;
+    padding-top: 18px;
+}
+
+.buttonFlights2{
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    text-align: center;
+    width: 270px;
+    height: 70px;
+    background-color: #fda238;
+    color: #fff7e6;
+    border: none;
+    margin-top: 30px;
+    border-radius: 12px;
+    font-weight: 600;
+}
+
+.buttonFlights1{
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    text-align: center;
+    width: 70px;
+    height: 70px;
+    background-color: #fa2778;
+    color: #fff7e6;
+    border: none;
+    margin-top: 30px;
+    border-radius: 12px;
+    font-weight: 600;
+}
 .headerSectionContact{
     display: flex;
     background-image: url(../assets/images/headerbackBack.png);
@@ -386,7 +452,9 @@ nav{
 
 .flexRowItemContactSection2{
     flex: 50%;
-    padding: 35px
+    padding: 35px;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 
@@ -418,24 +486,28 @@ nav{
     padding-top: 80px;
 }
 
-.flexRowItemContactSection2{
-    flex: 50%;
-}
-
 .flexContactForm{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 0 4em;
-}
-
-.formContainerContact{
-    width: 50%;
+    display: block;
 }
 
 .flexRowItemContact{
     flex: 50%;
     padding: 35px;
+}
+
+.flexRowItemContactSection2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.flexContactForm{
+    width: 100%;
+}
+
+.flexItemContact{
+    padding-right: 10px;
 }
 
 #contact{
